@@ -1,0 +1,241 @@
+.container-book {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-left: 100px;
+    margin-bottom: 100px
+}
+
+.book-content-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.book-content-img {
+    height: 100%;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    padding: 20px 0;
+    box-shadow: 0px 0px 1px 1px gray;
+
+}
+
+.book-content-img img {
+    width: 60%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.book-content-details-title {
+    width: max-content;
+    font-size: 45px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+
+
+}
+
+.book-content-details-author {
+    width: max-content;
+    font-size: 30px;
+    color: teal;
+    margin-bottom: 10px;
+
+
+}
+
+.book-content-details-author span:first-child {
+    color: gray;
+    font-size: 30px;
+    width: max-content;
+}
+
+.book-content-details-author span:nth-child(2) {
+    color: gray;
+    font-size: 20px;
+    width: max-content;
+}
+
+.book-content-details-price {
+    width: max-content;
+    font-size: 25px;
+    color: crimson;
+    margin-bottom: 10px;
+
+}
+
+.book-content-cart {
+    margin: 10px;
+    width: max-content;
+
+}
+
+.book-dsc-item-para {
+    padding: 20px;
+}
+
+.book-content-cart-input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.book-content-cart-btn {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: green;
+    border: green 1px solid;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+.book-content-cart-btn:hover {
+    background-color: green;
+    color: snow;
+}
+
+.book-content-cart-btn i {
+    margin-right: 5px;
+}
+
+.book-dsc-item-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.book-dsc-item-icon {
+    flex: 1;
+    padding: 10px;
+    color: teal;
+    width: 30%;
+}
+
+.book-dsc-item-icon i {
+    margin-right: 5px;
+}
+
+/* media Queries */
+@media (max-width: 720px) {
+    .container-book {
+        flex-direction: column;
+    }
+
+    .book-content {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    .book-content-details-title{
+        font-size: 21px;
+    }
+
+    .book-content-img {
+        width: 50%;
+        height: 70%;
+        align-items: center;
+    }
+
+    .book-dsc-item-icons {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0px 10px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .book-dsc-item-icon {
+        flex: 1;
+        padding: 10px;
+        color: teal;
+        width: 100%;
+    }
+
+    .book-content-cart {
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 10px;
+
+    }
+
+    .book-content-details {
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .book-content {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .book-content-img {
+        width: 40%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .book-dsc-item-icons {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0px 10px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .book-dsc-item-icon {
+        flex: 1;
+        padding: 10px;
+        color: teal;
+        width: 100%;
+    }
+
+    .book-content-cart {
+        text-align: center;
+    }
+
+    .book-content-details {
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .book-content-cart-input {
+        width: 40px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+}

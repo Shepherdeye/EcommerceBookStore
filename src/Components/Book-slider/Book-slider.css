@@ -1,0 +1,133 @@
+.book-slider-container {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 60px;
+    background-color: white;
+    padding: 10px 20px 20px 20px;
+
+}
+
+.book-slider-arrow-left,
+.book-slider-arrow-right {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: var(--main-color);
+    background-color: #222;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 3;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 10%;
+   
+
+}
+
+.book-slider-arrow-left {
+    left: 10px;
+}
+
+.book-slider-arrow-right {
+    right: 10px;
+}
+
+.book-slider-wrapper {
+    height: 100%;
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.book-slider-item {
+    border: 1px solid #e5dfdf;
+    background-color: snow;
+    margin: 0 10px;
+    width: 220px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 5px 0 0px ;
+    text-align: center;
+
+}
+
+.book-slider-item-img {
+    width: 70%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.book-slider-item-title {
+    font-size: 15px;
+    margin-top:2px ;
+}
+
+.book-slider-item-price {
+    color: crimson;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+.book-slider-item-icon-wrapper{
+    border-top: 1px solid crimson;
+    width: max-content;
+    text-align: center;
+    padding: 5px;
+
+
+}
+.book-slider-item-icon-wrapper i{
+    font-size: 27px;
+    cursor: pointer;
+    margin: 0 5px; 
+    color: rgb(67, 67, 67);
+}
+.Rating{
+    margin-top: 10px;
+    color: gold;
+}
+.Rating .bi-star-fill, .Rating .bi-star-half{
+    color: gold;
+}
+.Rating span:first-of-type{
+    color: rgb(86, 84, 84);
+    font-weight: 700;
+}
+/* media quieres */
+@media  (max-width: 522px) {
+    .book-slider-item {
+        border: 1px solid #e2dfdf;
+        background-color: snow;
+        margin: 0 10px;
+        width: 210px;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 10px 5px 0 0px;
+        text-align: center;
+    }
+    .book-slider-container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: hidden;
+        position: relative;
+        margin-bottom: 60px;
+        background-color: white;
+        padding: 10px 20px 20px 20px;
+    
+    }
+  
+}
