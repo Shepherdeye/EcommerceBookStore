@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EcommerceBookStore/static/css/main.81e4ff90.css",
+    "main.js": "/EcommerceBookStore/static/js/main.5b56691f.js",
+    "static/media/book1.png": "/EcommerceBookStore/static/media/book1.014f74a3ff49e22fcb0a.png",
+    "static/media/book3.png": "/EcommerceBookStore/static/media/book3.158af7a8e23e5dfb405c.png",
+    "static/media/book2.png": "/EcommerceBookStore/static/media/book2.7f599b8f6cb17e8116a6.png",
+    "index.html": "/EcommerceBookStore/index.html",
+    "main.81e4ff90.css.map": "/EcommerceBookStore/static/css/main.81e4ff90.css.map",
+    "main.5b56691f.js.map": "/EcommerceBookStore/static/js/main.5b56691f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81e4ff90.css",
+    "static/js/main.5b56691f.js"
+  ]
+}
