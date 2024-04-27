@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EcommerceBookStore/static/css/main.81e4ff90.css",
-    "main.js": "/EcommerceBookStore/static/js/main.fad4fa02.js",
-    "static/media/book1.png": "/EcommerceBookStore/static/media/book1.014f74a3ff49e22fcb0a.png",
-    "static/media/book3.png": "/EcommerceBookStore/static/media/book3.158af7a8e23e5dfb405c.png",
-    "static/media/book2.png": "/EcommerceBookStore/static/media/book2.7f599b8f6cb17e8116a6.png",
-    "index.html": "/EcommerceBookStore/index.html",
-    "main.81e4ff90.css.map": "/EcommerceBookStore/static/css/main.81e4ff90.css.map",
-    "main.fad4fa02.js.map": "/EcommerceBookStore/static/js/main.fad4fa02.js.map"
+    "main.css": "/static/css/main.81e4ff90.css",
+    "main.js": "/static/js/main.017c5a6e.js",
+    "static/media/book1.png": "/static/media/book1.014f74a3ff49e22fcb0a.png",
+    "static/media/book3.png": "/static/media/book3.158af7a8e23e5dfb405c.png",
+    "static/media/book2.png": "/static/media/book2.7f599b8f6cb17e8116a6.png",
+    "index.html": "/index.html",
+    "main.81e4ff90.css.map": "/static/css/main.81e4ff90.css.map",
+    "main.017c5a6e.js.map": "/static/js/main.017c5a6e.js.map"
   },
   "entrypoints": [
     "static/css/main.81e4ff90.css",
-    "static/js/main.fad4fa02.js"
+    "static/js/main.017c5a6e.js"
   ]
 }
